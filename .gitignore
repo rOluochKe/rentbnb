@@ -34,14 +34,8 @@ lerna-debug.log*
 !.vscode/launch.json
 !.vscode/extensions.json
 
-.env
 k8s
 e2e
 notifications
 payments
-auth
 constants
-decorators
-dto
-health
-models

@@ -20,3 +20,4 @@ phases:
   post_build:
     commands:
       - docker push 084898106549.dkr.ecr.us-east-1.amazonaws.com/reservations:latest
+      - docker push 084898106549.dkr.ecr.us-east-1.amazonaws.com/auth:latest
