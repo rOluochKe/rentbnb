@@ -25,6 +25,22 @@ steps:
         'apps/auth/Dockerfile',
         '.',
       ]
+
+  # Notifications
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      [
+        'build',
+        '-t',
+        'us-east4-docker.pkg.dev/rentbnb-378423/notifications/production',
+        '-f',
+        'apps/notifications/Dockerfile',
+        '.',
+      ]
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      ['push', 'us-east4-docker.pkg.dev/rentbnb-378423/notifications/production']
+
   # Payments
   - name: 'gcr.io/cloud-builders/docker'
     args:
