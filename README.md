@@ -1,6 +1,6 @@
 # RentBnB
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+A microservice application built with NestJS.
 
 ## Installation
 
